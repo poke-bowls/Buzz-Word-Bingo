@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/poke-bowls/Buzz-Word-Bingo/issues"
   },
-  "homepage": "https://github.com/poke-bowls/Buzz-Word-Bingo#readme"
+  "homepage": "https://github.com/poke-bowls/Buzz-Word-Bingo#readme",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
 }
