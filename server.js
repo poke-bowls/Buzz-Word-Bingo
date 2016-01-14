@@ -1,6 +1,8 @@
 var express = require( 'express' );
 var server = express();
 var bodyParser = require( 'body-parser' );
+var router = express.Router();
+server.use( '/', router );
 
 //Middleware
 server.use( express.static( 'public' ) );
@@ -37,7 +39,7 @@ server.route( '/buzzword' )
   })
 
   .delete( function( req, res ) {
-    res.send( { 'succes' : true } );
+    res.send( { 'success' : true } );
   });
 
 server.post( '/reset', function( req, res ) {
